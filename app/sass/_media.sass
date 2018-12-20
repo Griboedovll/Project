@@ -1,0 +1,49 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+// Стили наследуются от большего экрана к меньшему
+
+//Extra large: ≥1200px - От максимального и ниже
++media-breakpoint-down(xl)
+    
+
+//Large: ≥992px - От 1200px и ниже
++media-breakpoint-down(lg)
+
+
+//Medium: ≥768px - От 992px и ниже
++media-breakpoint-down(md)
+    
+
+//Small: ≥576px - От 768px и ниже
++media-breakpoint-down(sm)
+
+
+//Extra small: >0 - От 576px и ниже
++media-breakpoint-down(xs)
+
+
+
+/*==========  Mobile First  ==========*/
+// Стили наследуются от меньшего экрана к большему
+
+//Extra small: <576px - От минимального и выше
++media-breakpoint-up(xs)
+
+
+//Small: ≤576px - От 576px и выше
++media-breakpoint-up(sm)
+
+
+//Medium: ≤768px - От 768px и выше
++media-breakpoint-up(md)
+
+
+//Large: ≤992px - От 992px и выше
++media-breakpoint-up(lg)
+
+
+//Extra large: ≤1200px - От 1200px и максимально
++media-breakpoint-up(xl)
+
